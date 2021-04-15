@@ -12,14 +12,14 @@ struct ContentView: View {
         NavigationView {
             List {
                 let contentMaxWidth = 700 as CGFloat
-                NavigationLink(destination: NamesView().frame(maxWidth: contentMaxWidth)) {
-                    Label(LocalizedStringKey("Names"), systemImage: "person")
+                NavigationLink(destination: FormattersView().frame(maxWidth: contentMaxWidth)) {
+                    Label(LocalizedStringKey("Formatters"), systemImage: "")
                 }
                 NavigationLink(destination: AsyncAwait().frame(maxWidth: contentMaxWidth)) {
-                    Label(LocalizedStringKey("AsyncAwait"), systemImage: "AsyncAwait")
+                    Label(LocalizedStringKey("AsyncAwait"), systemImage: "")
                 }
             }
-            .navigationTitle(Text("Data Formatting", comment: "Formatters"))
+            .navigationTitle(Text("Dev 2021", comment: "Dev 2021"))
         }
     }
 }

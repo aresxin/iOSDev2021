@@ -16,6 +16,7 @@
 		5FDDC6AC2627DEB900111991 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6AB2627DEB900111991 /* AsyncAwait.swift */; };
 		5FDDC6B02627E43400111991 /* FormattersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6AF2627E43400111991 /* FormattersView.swift */; };
 		5FDDC6B32627E48700111991 /* ListFormatterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6B22627E48700111991 /* ListFormatterView.swift */; };
+		5FDDC6BB2628062A00111991 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC6BD2628062A00111991 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,10 @@
 		5FDDC6AB2627DEB900111991 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 		5FDDC6AF2627E43400111991 /* FormattersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattersView.swift; sourceTree = "<group>"; };
 		5FDDC6B22627E48700111991 /* ListFormatterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormatterView.swift; sourceTree = "<group>"; };
+		5FDDC6BC2628062A00111991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5FDDC6BF2628062F00111991 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5FDDC6C02628063200111991 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5FDDC6C12628063400111991 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,7 @@
 				5FDDC6962627DB0500111991 /* ContentView.swift */,
 				5FDDC6A42627DCC900111991 /* Formatters */,
 				5FDDC6982627DB0600111991 /* Assets.xcassets */,
+				5FDDC6BD2628062A00111991 /* Localizable.strings */,
 				5FDDC69D2627DB0700111991 /* Info.plist */,
 				5FDDC69A2627DB0700111991 /* Preview Content */,
 			);
@@ -141,6 +147,9 @@
 			knownRegions = (
 				en,
 				Base,
+				sv,
+				ja,
+				es,
 			);
 			mainGroup = 5FDDC6882627DB0500111991;
 			productRefGroup = 5FDDC6922627DB0500111991 /* Products */;
@@ -158,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FDDC69C2627DB0700111991 /* Preview Assets.xcassets in Resources */,
+				5FDDC6BB2628062A00111991 /* Localizable.strings in Resources */,
 				5FDDC6992627DB0600111991 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +190,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5FDDC6BD2628062A00111991 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDDC6BC2628062A00111991 /* en */,
+				5FDDC6BF2628062F00111991 /* ja */,
+				5FDDC6C02628063200111991 /* es */,
+				5FDDC6C12628063400111991 /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5FDDC69E2627DB0700111991 /* Debug */ = {
@@ -315,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = example.Dev2021;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = example.Dev2021;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

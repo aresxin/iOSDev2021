@@ -17,6 +17,9 @@ struct FormattersView: View {
             NavigationLink(destination: ListFormatterView().frame(maxWidth: contentMaxWidth)) {
                 Label(LocalizedStringKey("ListFormatter"), systemImage: "textformat.123")
             }
+            NavigationLink(destination: StringsdictView().frame(maxWidth: contentMaxWidth)) {
+                Label(LocalizedStringKey("[Stringsdict]"), systemImage: "textformat.123")
+            }
         }.navigationTitle(Text("Formatters", comment: "Formatters"))
 
 //        NavigationView {

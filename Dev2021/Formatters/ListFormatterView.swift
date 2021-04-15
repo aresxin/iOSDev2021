@@ -21,11 +21,8 @@ struct ListFormatterView: View {
     )
 
     var body: some View {
-        //Text("ListFormatter").padding(.bottom, 10)
 
-        VStack {
-            Text("ListFormatter").padding(.bottom, 20)
-
+        VStack(alignment: .center)  {
             Text(englishList).padding(.bottom, 20)
             Text(SwedishList).padding(.bottom, 20)
         }

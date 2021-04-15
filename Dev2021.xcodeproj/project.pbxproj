@@ -17,6 +17,8 @@
 		5FDDC6B02627E43400111991 /* FormattersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6AF2627E43400111991 /* FormattersView.swift */; };
 		5FDDC6B32627E48700111991 /* ListFormatterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6B22627E48700111991 /* ListFormatterView.swift */; };
 		5FDDC6BB2628062A00111991 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC6BD2628062A00111991 /* Localizable.strings */; };
+		5FDDC6C4262809B600111991 /* StringsdictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6C3262809B600111991 /* StringsdictView.swift */; };
+		5FDDC6C92628176C00111991 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC6CB2628176C00111991 /* Localizable.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,11 @@
 		5FDDC6BF2628062F00111991 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5FDDC6C02628063200111991 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5FDDC6C12628063400111991 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5FDDC6C3262809B600111991 /* StringsdictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsdictView.swift; sourceTree = "<group>"; };
+		5FDDC6CA2628176C00111991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		5FDDC6CD2628177100111991 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ja; path = ja.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		5FDDC6CE2628177400111991 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = es; path = es.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		5FDDC6CF2628177400111991 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = sv; path = sv.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +82,7 @@
 				5FDDC6BD2628062A00111991 /* Localizable.strings */,
 				5FDDC69D2627DB0700111991 /* Info.plist */,
 				5FDDC69A2627DB0700111991 /* Preview Content */,
+				5FDDC6CB2628176C00111991 /* Localizable.stringsdict */,
 			);
 			path = Dev2021;
 			sourceTree = "<group>";
@@ -94,6 +102,7 @@
 				5FDDC6A62627DD1300111991 /* NamesView.swift */,
 				5FDDC6AF2627E43400111991 /* FormattersView.swift */,
 				5FDDC6B22627E48700111991 /* ListFormatterView.swift */,
+				5FDDC6C3262809B600111991 /* StringsdictView.swift */,
 			);
 			path = Formatters;
 			sourceTree = "<group>";
@@ -167,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FDDC69C2627DB0700111991 /* Preview Assets.xcassets in Resources */,
+				5FDDC6C92628176C00111991 /* Localizable.stringsdict in Resources */,
 				5FDDC6BB2628062A00111991 /* Localizable.strings in Resources */,
 				5FDDC6992627DB0600111991 /* Assets.xcassets in Resources */,
 			);
@@ -180,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FDDC6972627DB0500111991 /* ContentView.swift in Sources */,
+				5FDDC6C4262809B600111991 /* StringsdictView.swift in Sources */,
 				5FDDC6B32627E48700111991 /* ListFormatterView.swift in Sources */,
 				5FDDC6B02627E43400111991 /* FormattersView.swift in Sources */,
 				5FDDC6A82627DD1300111991 /* NamesView.swift in Sources */,
@@ -201,6 +212,17 @@
 				5FDDC6C12628063400111991 /* sv */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5FDDC6CB2628176C00111991 /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FDDC6CA2628176C00111991 /* en */,
+				5FDDC6CD2628177100111991 /* ja */,
+				5FDDC6CE2628177400111991 /* es */,
+				5FDDC6CF2628177400111991 /* sv */,
+			);
+			name = Localizable.stringsdict;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

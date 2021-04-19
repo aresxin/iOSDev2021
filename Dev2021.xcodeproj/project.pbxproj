@@ -10,6 +10,7 @@
 		5F96E8FD262D110000DEE4B0 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E8FC262D110000DEE4B0 /* Combine.swift */; };
 		5F96E901262D4C4A00DEE4B0 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E900262D4C4A00DEE4B0 /* UserViewModel.swift */; };
 		5F96E904262D52EF00DEE4B0 /* PasswordChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */; };
+		5F96E90B262D747500DEE4B0 /* Combine.md in Resources */ = {isa = PBXBuildFile; fileRef = 5F96E90A262D747500DEE4B0 /* Combine.md */; };
 		5FDDC6952627DB0500111991 /* Dev2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6942627DB0500111991 /* Dev2021App.swift */; };
 		5FDDC6972627DB0500111991 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6962627DB0500111991 /* ContentView.swift */; };
 		5FDDC6992627DB0600111991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC6982627DB0600111991 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		5F96E8FC262D110000DEE4B0 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
 		5F96E900262D4C4A00DEE4B0 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChecker.swift; sourceTree = "<group>"; };
+		5F96E90A262D747500DEE4B0 /* Combine.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Combine.md; sourceTree = "<group>"; };
 		5FDDC6912627DB0500111991 /* Dev2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dev2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDDC6942627DB0500111991 /* Dev2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dev2021App.swift; sourceTree = "<group>"; };
 		5FDDC6962627DB0500111991 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		5F96E8FB262D10ED00DEE4B0 /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				5F96E90A262D747500DEE4B0 /* Combine.md */,
 				5F96E8FF262D4C2C00DEE4B0 /* ViewModels */,
 				5F96E8FC262D110000DEE4B0 /* Combine.swift */,
 				5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */,
@@ -203,6 +206,7 @@
 				5FDDC69C2627DB0700111991 /* Preview Assets.xcassets in Resources */,
 				5FDDC6C92628176C00111991 /* Localizable.stringsdict in Resources */,
 				5FDDC6BB2628062A00111991 /* Localizable.strings in Resources */,
+				5F96E90B262D747500DEE4B0 /* Combine.md in Resources */,
 				5FDDC6992627DB0600111991 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

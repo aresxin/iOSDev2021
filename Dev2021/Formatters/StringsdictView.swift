@@ -14,8 +14,11 @@ struct StringsdictView: View {
 
 
 
-    let one = String.localizedStringWithFormat(NSLocalizedString("MinFile", comment:""), 1)
-    let other = String.localizedStringWithFormat(NSLocalizedString("MinFile", comment:""), 5)
+//    let one = String.localizedStringWithFormat(NSLocalizedString("MinFile", comment:""), 1)
+//    let other = String.localizedStringWithFormat(NSLocalizedString("MinFile", comment:""), 5)
+
+    let one = String.localizedPluralString("MinFile", count: 1)
+    let other = String.localizedPluralString("MinFile", count: 5)
 
     var body: some View {
         VStack(alignment: .center)  {
@@ -45,5 +48,12 @@ struct StringsdictView: View {
 struct StringsdictView_Previews: PreviewProvider {
     static var previews: some View {
         StringsdictView()
+    }
+}
+
+extension String {
+    static func localizedPluralString(_ key: String, count: Int, comment: String = "") ->  String {
+        let localizedString = NSLocalizedString(key, comment:comment)
+        return String.localizedStringWithFormat(localizedString, count)
     }
 }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5F96E8FD262D110000DEE4B0 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E8FC262D110000DEE4B0 /* Combine.swift */; };
+		5F96E901262D4C4A00DEE4B0 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E900262D4C4A00DEE4B0 /* UserViewModel.swift */; };
+		5F96E904262D52EF00DEE4B0 /* PasswordChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */; };
 		5FDDC6952627DB0500111991 /* Dev2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6942627DB0500111991 /* Dev2021App.swift */; };
 		5FDDC6972627DB0500111991 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6962627DB0500111991 /* ContentView.swift */; };
 		5FDDC6992627DB0600111991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC6982627DB0600111991 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		5F96E8FC262D110000DEE4B0 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		5F96E900262D4C4A00DEE4B0 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChecker.swift; sourceTree = "<group>"; };
 		5FDDC6912627DB0500111991 /* Dev2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dev2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDDC6942627DB0500111991 /* Dev2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dev2021App.swift; sourceTree = "<group>"; };
 		5FDDC6962627DB0500111991 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,9 +64,19 @@
 		5F96E8FB262D10ED00DEE4B0 /* Combine */ = {
 			isa = PBXGroup;
 			children = (
+				5F96E8FF262D4C2C00DEE4B0 /* ViewModels */,
 				5F96E8FC262D110000DEE4B0 /* Combine.swift */,
+				5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */,
 			);
 			path = Combine;
+			sourceTree = "<group>";
+		};
+		5F96E8FF262D4C2C00DEE4B0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5F96E900262D4C4A00DEE4B0 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		5FDDC6882627DB0500111991 = {
@@ -203,6 +217,8 @@
 				5FDDC6972627DB0500111991 /* ContentView.swift in Sources */,
 				5FDDC6C4262809B600111991 /* StringsdictView.swift in Sources */,
 				5FDDC6B32627E48700111991 /* ListFormatterView.swift in Sources */,
+				5F96E901262D4C4A00DEE4B0 /* UserViewModel.swift in Sources */,
+				5F96E904262D52EF00DEE4B0 /* PasswordChecker.swift in Sources */,
 				5FDDC6B02627E43400111991 /* FormattersView.swift in Sources */,
 				5FDDC6A82627DD1300111991 /* NamesView.swift in Sources */,
 				5FDDC6AC2627DEB900111991 /* AsyncAwait.swift in Sources */,

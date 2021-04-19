@@ -21,6 +21,8 @@ class UserViewModel: ObservableObject {
     @Published var isValid = false
     @Published var isPasswordEnable = false
 
+    private var isValidCancellable: AnyCancellable?
+
     private var cancellableSet: Set<AnyCancellable> = []
 
     private var isUsernameValidPublisher: AnyPublisher<Bool, Never> {
@@ -138,10 +140,12 @@ class UserViewModel: ObservableObject {
             .assign(to: \.passwordMessage, on: self)
             .store(in: &cancellableSet)
 
+        // Must store AnyCancellable
+        self.isValidCancellable =
         isFormValidPublisher
             .receive(on: RunLoop.main)
             .assign(to: \.isValid, on: self)
-            .store(in: &cancellableSet)
+//            .store(in: &cancellableSet)
     }
 
 }

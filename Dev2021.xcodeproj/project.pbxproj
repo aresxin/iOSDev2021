@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F96E8FD262D110000DEE4B0 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E8FC262D110000DEE4B0 /* Combine.swift */; };
 		5FDDC6952627DB0500111991 /* Dev2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6942627DB0500111991 /* Dev2021App.swift */; };
 		5FDDC6972627DB0500111991 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6962627DB0500111991 /* ContentView.swift */; };
 		5FDDC6992627DB0600111991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC6982627DB0600111991 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F96E8FC262D110000DEE4B0 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
 		5FDDC6912627DB0500111991 /* Dev2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dev2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDDC6942627DB0500111991 /* Dev2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dev2021App.swift; sourceTree = "<group>"; };
 		5FDDC6962627DB0500111991 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F96E8FB262D10ED00DEE4B0 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				5F96E8FC262D110000DEE4B0 /* Combine.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
 		5FDDC6882627DB0500111991 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +84,7 @@
 		5FDDC6932627DB0500111991 /* Dev2021 */ = {
 			isa = PBXGroup;
 			children = (
+				5F96E8FB262D10ED00DEE4B0 /* Combine */,
 				5FDDC6AA2627DE7500111991 /* AsyncAwait */,
 				5FDDC6942627DB0500111991 /* Dev2021App.swift */,
 				5FDDC6962627DB0500111991 /* ContentView.swift */,
@@ -195,6 +206,7 @@
 				5FDDC6B02627E43400111991 /* FormattersView.swift in Sources */,
 				5FDDC6A82627DD1300111991 /* NamesView.swift in Sources */,
 				5FDDC6AC2627DEB900111991 /* AsyncAwait.swift in Sources */,
+				5F96E8FD262D110000DEE4B0 /* Combine.swift in Sources */,
 				5FDDC6A72627DD1300111991 /* Monogram.swift in Sources */,
 				5FDDC6952627DB0500111991 /* Dev2021App.swift in Sources */,
 			);

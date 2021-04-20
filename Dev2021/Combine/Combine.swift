@@ -29,7 +29,7 @@ struct Combine: View {
         }
         .sheet(isPresented: $presentAlert) {
             WelcomeView()
-        }.navigationTitle(Text("Combine framework", comment: "Combine"))
+        }.navigationTitle(Text("Demo", comment: "Combine"))
     }
 
     func signUp() {

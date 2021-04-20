@@ -18,7 +18,7 @@ struct ContentView: View {
                 NavigationLink(destination: AsyncAwait().frame(maxWidth: contentMaxWidth)) {
                     Label(LocalizedStringKey("AsyncAwait"), systemImage: "")
                 }
-                NavigationLink(destination: Combine().frame(maxWidth: contentMaxWidth)) {
+                NavigationLink(destination: CombineListView().frame(maxWidth: contentMaxWidth)) {
                     Label(LocalizedStringKey("Combine"), systemImage: "")
                 }
             }

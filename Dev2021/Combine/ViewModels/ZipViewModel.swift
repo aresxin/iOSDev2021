@@ -32,15 +32,15 @@ class ZipViewModel: ObservableObject {
             .decode(type: [Todo].self, decoder: JSONDecoder())
 
         // 1. normal
-//        Publishers.Zip(publisher1, publisher2)
-//            .eraseToAnyPublisher()
-//            .catch { error in
-//                Just(([], []))
-//            }
-//            .sink(receiveValue: { posts, todos in
-//                self.responseData1 = "posts count is \(posts.count)"
-//                self.responseData2 = "todos count is \(todos.count)"
-//            }).store(in: &cancellableSet)
+        Publishers.Zip(publisher1, publisher2)
+            .eraseToAnyPublisher()
+            .catch { error in
+                Just(([], []))
+            }
+            .sink(receiveValue: { posts, todos in
+                self.responseData1 = "posts count is \(posts.count)"
+                self.responseData2 = "todos count is \(todos.count)"
+            }).store(in: &cancellableSet)
 
         // 2.
 //        Publishers.Zip(publisher1, publisher2)
@@ -62,22 +62,22 @@ class ZipViewModel: ObservableObject {
 //            }).store(in: &cancellableSet)
 
         // 值，订阅一次产生一次数据流
-        let onePublisher =  Publishers.Zip(publisher1, publisher2).map { (posts, todos) -> String in
-            return "posts count is \(posts.count)"
-        }.replaceError(with: "error").eraseToAnyPublisher()
-
-        onePublisher.assign(to:  \.responseData1, on: self).store(in: &cancellableSet)
-        onePublisher.assign(to:  \.responseData2, on: self).store(in: &cancellableSet)
+//        let onePublisher =  Publishers.Zip(publisher1, publisher2).map { (posts, todos) -> String in
+//            return "posts count is \(posts.count)"
+//        }.replaceError(with: "error").eraseToAnyPublisher()
+//
+//        onePublisher.assign(to:  \.responseData1, on: self).store(in: &cancellableSet)
+//        onePublisher.assign(to:  \.responseData2, on: self).store(in: &cancellableSet)
 
 
         // 引用，共享一个数据流
-        let sharePublisher =  Publishers.Zip(publisher1, publisher2).map { (posts, todos) -> String in
-            return "posts count is \(posts.count)"
-        }.replaceError(with: "error").eraseToAnyPublisher().share().makeConnectable()
-
-        sharePublisher.assign(to:  \.responseData1, on: self).store(in: &cancellableSet)
-        sharePublisher.assign(to:  \.responseData2, on: self).store(in: &cancellableSet)
-        sharePublisher.connect().store(in: &cancellableSet)
+//        let sharePublisher =  Publishers.Zip(publisher1, publisher2).map { (posts, todos) -> String in
+//            return "posts count is \(posts.count)"
+//        }.replaceError(with: "error").eraseToAnyPublisher().share().makeConnectable()
+//
+//        sharePublisher.assign(to:  \.responseData1, on: self).store(in: &cancellableSet)
+//        sharePublisher.assign(to:  \.responseData2, on: self).store(in: &cancellableSet)
+//        sharePublisher.connect().store(in: &cancellableSet)
     }
 }
 

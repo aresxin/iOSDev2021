@@ -13,6 +13,8 @@
 		5F96E901262D4C4A00DEE4B0 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E900262D4C4A00DEE4B0 /* UserViewModel.swift */; };
 		5F96E904262D52EF00DEE4B0 /* PasswordChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */; };
 		5F96E918262D7C9C00DEE4B0 /* PublisherZip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E917262D7C9C00DEE4B0 /* PublisherZip.swift */; };
+		5FC94CA6262FEDD500173816 /* SubscribersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC94CA5262FEDD500173816 /* SubscribersView.swift */; };
+		5FC94CA9262FF26500173816 /* SubscribersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC94CA8262FF26500173816 /* SubscribersModel.swift */; };
 		5FDDC6952627DB0500111991 /* Dev2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6942627DB0500111991 /* Dev2021App.swift */; };
 		5FDDC6972627DB0500111991 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDDC6962627DB0500111991 /* ContentView.swift */; };
 		5FDDC6992627DB0600111991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FDDC6982627DB0600111991 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 		5F96E900262D4C4A00DEE4B0 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChecker.swift; sourceTree = "<group>"; };
 		5F96E917262D7C9C00DEE4B0 /* PublisherZip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherZip.swift; sourceTree = "<group>"; };
+		5FC94CA5262FEDD500173816 /* SubscribersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribersView.swift; sourceTree = "<group>"; };
+		5FC94CA8262FF26500173816 /* SubscribersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribersModel.swift; sourceTree = "<group>"; };
 		5FDDC6912627DB0500111991 /* Dev2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dev2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDDC6942627DB0500111991 /* Dev2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dev2021App.swift; sourceTree = "<group>"; };
 		5FDDC6962627DB0500111991 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 				5F96E8FF262D4C2C00DEE4B0 /* ViewModels */,
 				5F96E8FC262D110000DEE4B0 /* Combine.swift */,
 				5F695839262E696800E7E564 /* CombineListView.swift */,
+				5FC94CA5262FEDD500173816 /* SubscribersView.swift */,
 				5F96E917262D7C9C00DEE4B0 /* PublisherZip.swift */,
 				5F96E903262D52EF00DEE4B0 /* PasswordChecker.swift */,
 			);
@@ -84,6 +89,7 @@
 			children = (
 				5F96E900262D4C4A00DEE4B0 /* UserViewModel.swift */,
 				5F69583C262E6B6B00E7E564 /* ZipViewModel.swift */,
+				5FC94CA8262FF26500173816 /* SubscribersModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -225,12 +231,14 @@
 			files = (
 				5F69583A262E696800E7E564 /* CombineListView.swift in Sources */,
 				5FDDC6972627DB0500111991 /* ContentView.swift in Sources */,
+				5FC94CA6262FEDD500173816 /* SubscribersView.swift in Sources */,
 				5FDDC6C4262809B600111991 /* StringsdictView.swift in Sources */,
 				5FDDC6B32627E48700111991 /* ListFormatterView.swift in Sources */,
 				5F96E901262D4C4A00DEE4B0 /* UserViewModel.swift in Sources */,
 				5F96E904262D52EF00DEE4B0 /* PasswordChecker.swift in Sources */,
 				5F69583D262E6B6B00E7E564 /* ZipViewModel.swift in Sources */,
 				5FDDC6B02627E43400111991 /* FormattersView.swift in Sources */,
+				5FC94CA9262FF26500173816 /* SubscribersModel.swift in Sources */,
 				5F96E918262D7C9C00DEE4B0 /* PublisherZip.swift in Sources */,
 				5FDDC6A82627DD1300111991 /* NamesView.swift in Sources */,
 				5FDDC6AC2627DEB900111991 /* AsyncAwait.swift in Sources */,

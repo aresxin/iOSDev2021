@@ -21,6 +21,9 @@ struct ContentView: View {
                 NavigationLink(destination: CombineListView().frame(maxWidth: contentMaxWidth)) {
                     Label(LocalizedStringKey("Combine"), systemImage: "")
                 }
+                NavigationLink(destination: ResultBuilderView().frame(maxWidth: contentMaxWidth)) {
+                    Label(LocalizedStringKey("ResultBuilder"), systemImage: "")
+                }
             }
             .navigationTitle(Text("Dev 2021", comment: "Dev 2021"))
         }

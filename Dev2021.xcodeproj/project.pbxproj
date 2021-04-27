@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F6632752631425F00F82309 /* ResultBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6632742631425F00F82309 /* ResultBuilderView.swift */; };
 		5F69583A262E696800E7E564 /* CombineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F695839262E696800E7E564 /* CombineListView.swift */; };
 		5F69583D262E6B6B00E7E564 /* ZipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F69583C262E6B6B00E7E564 /* ZipViewModel.swift */; };
 		5F96E8FD262D110000DEE4B0 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F96E8FC262D110000DEE4B0 /* Combine.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F6632742631425F00F82309 /* ResultBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBuilderView.swift; sourceTree = "<group>"; };
 		5F695839262E696800E7E564 /* CombineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineListView.swift; sourceTree = "<group>"; };
 		5F69583C262E6B6B00E7E564 /* ZipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipViewModel.swift; sourceTree = "<group>"; };
 		5F96E8FC262D110000DEE4B0 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
@@ -71,6 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F6632732631424A00F82309 /* ResultBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				5F663278263146C400F82309 /* NSAttributedStringBuilder */,
+				5F6632742631425F00F82309 /* ResultBuilderView.swift */,
+			);
+			path = ResultBuilder;
+			sourceTree = "<group>";
+		};
+		5F663278263146C400F82309 /* NSAttributedStringBuilder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSAttributedStringBuilder;
+			sourceTree = "<group>";
+		};
 		5F96E8FB262D10ED00DEE4B0 /* Combine */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +131,7 @@
 		5FDDC6932627DB0500111991 /* Dev2021 */ = {
 			isa = PBXGroup;
 			children = (
+				5F6632732631424A00F82309 /* ResultBuilder */,
 				5F96E8FB262D10ED00DEE4B0 /* Combine */,
 				5FDDC6AA2627DE7500111991 /* AsyncAwait */,
 				5FDDC6942627DB0500111991 /* Dev2021App.swift */,
@@ -245,6 +264,7 @@
 				5F96E8FD262D110000DEE4B0 /* Combine.swift in Sources */,
 				5FDDC6A72627DD1300111991 /* Monogram.swift in Sources */,
 				5FDDC6952627DB0500111991 /* Dev2021App.swift in Sources */,
+				5F6632752631425F00F82309 /* ResultBuilderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
